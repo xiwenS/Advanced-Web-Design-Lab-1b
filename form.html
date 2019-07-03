@@ -5,17 +5,73 @@
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
+        <h1>New Jersey Voter Registration Application</h1>
+
+        <div id=1>
+        <h3>1 Check all boxes that apply:</h3>
+        <input type="checkbox" name="" value="new" >New Registration
+        <input type="checkbox" name="" value="address" >Address Change
+        <input type="checkbox" name="" value="name" >Name Change
+        <input type="checkbox" name="" value="" >Signature Update
+        <input type="checkbox" name="" value="" > Vote by Mail
+        <input type="checkbox" name="" value="" >Political Party Affiliation
+        </div>
+
+        <div id=2>
+            <h3>2 Are you a U.S. Citizem?</h3>
+            <p>if no, do not submit the form</p>
+            <label for="optA">
+                <input type="radio" value="A" name="radio" id="optA"> Yes
+            </label>
+            <label for="optB">
+                <input type="radio" value="B" name="radio" id="optB" checked> NO
+            </label> 
+        </div>
+
+        <div id=3>
+            <h3>3 Are you at least 17 years of age?</h3>
+            <p>if no, do not submit the form</p>
+            <label for="optA">
+                <input type="radio" value="A" name="radio" id="optA"> Yes
+            </label>
+            <label for="optB">
+                <input type="radio" value="B" name="radio" id="optB" checked> NO
+            </label> 
+        </div>
+        
+        <div id=4>
+            <h3>4 Name</h3>
+            <input type="text" name="text" value="Last name">
+            <input type="text" name="text" value="First name">
+            <input type="text" name="text" value="Middle name or Initial">
+            <input type="text" name="text" value="Suffix">
+        </div>
         
         
+        <div id=5>
+            <h3>5 Date Of Birth</h3>
+            <input type="date" name="date">
+        </div>
         
         
-        
-        
-        
-        
-        
-        
-        
+        <div id=6>
+            <h3>6 Gender</h3>
+            <p>if no, do not submit the form</p>
+            <label for="optA">
+                <input type="radio" value="A" name="radio" id="optA"> Female
+            </label>
+            <label for="optB">
+                <input type="radio" value="B" name="radio" id="optB" checked> Male
+            </label> 
+        </div>
+
+        <div id=7>
+            <h3>NJ Driver's License Number or MVC Non-driver ID Number</h3>
+            <input type="number" name="number">
+            <p>If you Do Not have a NJ Driver's Licence or MVC Non-Driver ID, proived the last 4 digits of your social Security Number</p>
+            <input type="number" name="number">
+            <input type="checkbox" name="" value="new" >I swear or affirm that I DO NOT have a NJ Driver's License, MVC Non-driver ID or a Social Security Number
+        </div>
         
         <!--Question 8-->
         <div>
