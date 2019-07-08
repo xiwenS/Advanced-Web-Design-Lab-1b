@@ -98,20 +98,23 @@
         <!--Question 6-->
 
         <div id=6>
-            <h3>6. Gender</h3>
+            <h3>6. Gender (Optional)</h3>
             <p>if no, do not submit the form</p>
             <label for="genOptA">
                 <input type="radio" value="A" name="qSix" id="genOptA"> Female
             </label>
             <label for="genOptB">
                 <input type="radio" value="B" name="qSix" id="genOptB" checked> Male
+            </label>
+            <label for="genOptC">
+                <input type="radio" value="C" name="qSix" id="genOptC" checked> Transgender
             </label> 
         </div>
         <!--Question 7-->
 
         <div id=7>
             <h3>7. NJ Driver's License Number or MVC Non-driver ID Number</h3>
-            <input type="number" name="number">
+            <input type="text" name="text" value="">
             <p>If you Do Not have a NJ Driver's Licence or MVC Non-Driver ID, proived the last 4 digits of your social Security Number</p>
             <input type="number" name="number">
             <input type="checkbox" name="qSev" value="new" >I swear or affirm that I DO NOT have a NJ Driver's License, MVC Non-driver ID or a Social Security Number
@@ -121,7 +124,7 @@
         <div id=8>
             <h3>8. Home Address</h3>
             <p>Do NOT use PO Box</p>
-            Address<input type="text" name="text" value="">
+            Address <input type="text" name="text" value="">
             Apt. <input type="text" name="text" value="">
             Municipality (City/Town)
             <select name="select">
@@ -152,10 +155,10 @@
                 <option value="county">Spotswood Borough</option>
                 <option value="county">Woodbridge Township</option>
             </select>
-            County<select name="select">
+            County <select name="select">
                 <option value="state">Middlesex County</option>
             </select>
-            State<select name="select">
+            State <select name="select">
                 <option value="state">New Jersey</option>
             </select>
             Zip Code<input type="text" name="text" value="">
@@ -165,7 +168,7 @@
         <div id=9>
             <h3>9. Mailing Address</h3>
             <p>If different from home address</p>
-            Address<input type="text" name="text" value="">
+            Address <input type="text" name="text" value="">
             Apt. <input type="text" name="text" value="">
             Municipality (City/Town)
             <select name="select">
@@ -196,27 +199,64 @@
                 <option value="county">Spotswood Borough</option>
                 <option value="county">Woodbridge Township</option>
             </select>
-            County<select name="select">
+            County <select name="select">
                 <option value="state">Middlesex County</option>
             </select>
-            State<select name="select">
+            State <select name="select">
                 <option value="state">New Jersey</option>
             </select>
-            Zip Code<input type="text" name="text" value="">
+            Zip Code <input type="text" name="text" value="">
         </div>
         
         <!--Question 10-->
         <div id=10>
             <h3>10. Last Address Registered to Vote</h3>
             <p>Do NOT use PO Box</p>
-            <textarea></textarea>
+            Address <input type="text" name="text" value="">
+            Apt. <input type="text" name="text" value="">
+            Municipality (City/Town)
+            <select name="select">
+                <option value="county">Select...</option>
+                <option value="county">Carteret Borough</option>
+                <option value="county">Cranbury Township</option>
+                <option value="county">Dunellen Borough</option>
+                <option value="county">East Brunswick Township</option>
+                <option value="county">Edison Township</option>
+                <option value="county">Helmetta Borough</option>
+                <option value="county">Highland Park Borough</option>
+                <option value="county">Jamesburg Borough</option>
+                <option value="county">Metuchen Borough</option>
+                <option value="county">Middlesex Borough</option>
+                <option value="county">Milltown Borough</option>
+                <option value="county">Monroe Township</option>
+                <option value="county">New Brunswick City</option>
+                <option value="county">North Brunswick Township</option>
+                <option value="county">Old Bridge Township</option>
+                <option value="county">Perth Amboy City</option>
+                <option value="county">Piscataway Township</option>
+                <option value="county">Plainsboro Township</option>
+                <option value="county">Sayreville Borough</option>
+                <option value="county">South Amboy City</option>
+                <option value="county">South Brunswick Township</option>
+                <option value="county">South Plainfield Borough</option>
+                <option value="county">South River Borough</option>
+                <option value="county">Spotswood Borough</option>
+                <option value="county">Woodbridge Township</option>
+            </select>
+            County <select name="select">
+                <option value="state">Middlesex County</option>
+            </select>
+            State <select name="select">
+                <option value="state">New Jersey</option>
+            </select>
+            Zip Code <input type="text" name="text" value="">
         </div>
         
         <!--Question 11-->
         <div id=11>
             <h3>11. Former Name if Making Name Change</h3>
-            Last Name<input type="text" name="text" value="">
-            First Name<input type="text" name="text" value="">
+            Last Name <input type="text" name="text" value="">
+            First Name <input type="text" name="text" value="">
             Middle Name (optional)<input type="text" name="text" value="">
         </div>
         
@@ -250,8 +290,45 @@
             <input type="checkbox" name="checkbox" value="checkbox value" checked> I wish to receive a Mail-In Ballot for all future elections until I request otherwise in writing to the County Clerk’s office.
             <br>
             <input type="checkbox" name="checkbox" value="checkbox value" checked> Mail my ballot to the following address if different from Mailing Address above.
-            <p>Address</p>
-            <textarea></textarea>
+            <br><br>
+            Address<input type="text" name="text" value="">
+            Apt. <input type="text" name="text" value="">
+            Municipality (City/Town)
+            <select name="select">
+                <option value="county">Select...</option>
+                <option value="county">Carteret Borough</option>
+                <option value="county">Cranbury Township</option>
+                <option value="county">Dunellen Borough</option>
+                <option value="county">East Brunswick Township</option>
+                <option value="county">Edison Township</option>
+                <option value="county">Helmetta Borough</option>
+                <option value="county">Highland Park Borough</option>
+                <option value="county">Jamesburg Borough</option>
+                <option value="county">Metuchen Borough</option>
+                <option value="county">Middlesex Borough</option>
+                <option value="county">Milltown Borough</option>
+                <option value="county">Monroe Township</option>
+                <option value="county">New Brunswick City</option>
+                <option value="county">North Brunswick Township</option>
+                <option value="county">Old Bridge Township</option>
+                <option value="county">Perth Amboy City</option>
+                <option value="county">Piscataway Township</option>
+                <option value="county">Plainsboro Township</option>
+                <option value="county">Sayreville Borough</option>
+                <option value="county">South Amboy City</option>
+                <option value="county">South Brunswick Township</option>
+                <option value="county">South Plainfield Borough</option>
+                <option value="county">South River Borough</option>
+                <option value="county">Spotswood Borough</option>
+                <option value="county">Woodbridge Township</option>
+            </select>
+            County<select name="select">
+                <option value="state">Middlesex County</option>
+            </select>
+            State<select name="select">
+                <option value="state">New Jersey</option>
+            </select>
+            Zip Code<input type="text" name="text" value="">
         </div>
         
         <!--Declaration-->
@@ -270,19 +347,55 @@
         <!--Signature-->
         <div id=signature>
             <h3>Signature</h3>
-            <p>Typing your legal name in the box below counts as your legal signature.</p>
-            Name <input type="text" name="text" value="">
-            <br>
+            <p>Typing your full legal name in the box below counts as your legal signature.</p>
+            Full Legal Name <input type="text" name="text" value="">
+            <br><br>
             Date <input type="date" name="date">
             
             <h3>If applicant is unable to complete this form, print the name and address of individual who completed this form.</h3>
             
-            <p>Name</p>
-            <input type="text" name="text" value="">
-            <p>Address</p>
-            <textarea></textarea>
-            <p>Date</p>
-            <input type="date" name="date">
+            Name <input type="text" name="text" value="">
+            <br><br>
+            Address<input type="text" name="text" value="">
+            Apt. <input type="text" name="text" value="">
+            Municipality (City/Town)
+            <select name="select">
+                <option value="county">Select...</option>
+                <option value="county">Carteret Borough</option>
+                <option value="county">Cranbury Township</option>
+                <option value="county">Dunellen Borough</option>
+                <option value="county">East Brunswick Township</option>
+                <option value="county">Edison Township</option>
+                <option value="county">Helmetta Borough</option>
+                <option value="county">Highland Park Borough</option>
+                <option value="county">Jamesburg Borough</option>
+                <option value="county">Metuchen Borough</option>
+                <option value="county">Middlesex Borough</option>
+                <option value="county">Milltown Borough</option>
+                <option value="county">Monroe Township</option>
+                <option value="county">New Brunswick City</option>
+                <option value="county">North Brunswick Township</option>
+                <option value="county">Old Bridge Township</option>
+                <option value="county">Perth Amboy City</option>
+                <option value="county">Piscataway Township</option>
+                <option value="county">Plainsboro Township</option>
+                <option value="county">Sayreville Borough</option>
+                <option value="county">South Amboy City</option>
+                <option value="county">South Brunswick Township</option>
+                <option value="county">South Plainfield Borough</option>
+                <option value="county">South River Borough</option>
+                <option value="county">Spotswood Borough</option>
+                <option value="county">Woodbridge Township</option>
+            </select>
+            County <select name="select">
+                <option value="state">Middlesex County</option>
+            </select>
+            State <select name="select">
+                <option value="state">New Jersey</option>
+            </select>
+            Zip Code <input type="text" name="text" value="">
+            <br><br>
+            Date <input type="date" name="date">
         </div>
         
         <!--Submit-->
