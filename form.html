@@ -8,71 +8,90 @@
     </head>
     <body>
         <h1>New Jersey Voter Registration Application</h1>
+        <!--Question 1-->
 
         <div id=1>
-        <h3>1 Check all boxes that apply:</h3>
-        <input type="checkbox" name="" value="new" >New Registration
-        <input type="checkbox" name="" value="address" >Address Change
-        <input type="checkbox" name="" value="name" >Name Change
-        <input type="checkbox" name="" value="" >Signature Update
-        <input type="checkbox" name="" value="" > Vote by Mail
-        <input type="checkbox" name="" value="" >Political Party Affiliation
+        <h3>1. Check all boxes that apply:</h3>
+        <input type="checkbox" id="one" name="one" value="new" >
+        <label for="one">New Registration</label>
+
+        <input type="checkbox" id="two" name="two" value="address" >
+        <label for="two">Address Change</label>
+
+        <input type="checkbox" id="thr" name="thr" value="name" >
+        <label for="thr">Name Change </label>
+
+        <input type="checkbox" id="fou" name="fou" value="" >
+        <label for="fou"> Signature Update</label>
+
+        <input type="checkbox" id="fiv" name="fiv" value="" > 
+        <label for="fiv">Vote by Mail </label>
+
+        <input type="checkbox" id="six" name="six" value="" >
+        <label for="six">Political Party Affiliation </label>
+
         </div>
+        <!--Question 2-->
 
         <div id=2>
-            <h3>2 Are you a U.S. Citizem?</h3>
+            <h3>2. Are you a U.S. Citizem?</h3>
             <p>if no, do not submit the form</p>
             <label for="citOptA">
-                <input type="radio" value="A" name="radio" id="citOptA"> Yes
+                <input type="radio" value="A" name="qOne" id="citOptA"> Yes
             </label>
             <label for="optB">
-                <input type="radio" value="B" name="radio" id="citOptB" checked> NO
+                <input type="radio" value="B" name="qOne" id="citOptB" > NO
             </label> 
         </div>
+        <!--Question 3-->
 
         <div id=3>
-            <h3>3 Are you at least 17 years of age?</h3>
+            <h3>3. Are you at least 17 years of age?</h3>
             <p>if no, do not submit the form</p>
             <label for="ageOptA">
-                <input type="radio" value="A" name="radio" id="ageOptA"> Yes
+                <input type="radio" value="A" name="qTwo" id="ageOptA"> Yes
             </label>
             <label for="ageOptB">
-                <input type="radio" value="B" name="radio" id="ageOptB" checked> NO
+                <input type="radio" value="B" name="qTwo" id="ageOptB" > NO
             </label> 
         </div>
-        
+         <!--Question 4-->
+
         <div id=4>
-            <h3>4 Name</h3>
+            <h3>4. Name</h3>
             <input type="text" name="text" value="Last name">
             <input type="text" name="text" value="First name">
             <input type="text" name="text" value="Middle name or Initial">
             <input type="text" name="text" value="Suffix">
         </div>
-        
+        <!--Question 5-->
+
         
         <div id=5>
-            <h3>5 Date Of Birth</h3>
+            <h3>5. Date Of Birth</h3>
             <input type="date" name="date">
         </div>
         
-        
+        <!--Question 6-->
+
         <div id=6>
-            <h3>6 Gender</h3>
+            <h3>6. Gender</h3>
             <p>if no, do not submit the form</p>
             <label for="genOptA">
-                <input type="radio" value="A" name="radio" id="genOptA"> Female
+                <input type="radio" value="A" name="qSix" id="genOptA"> Female
             </label>
             <label for="genOptB">
-                <input type="radio" value="B" name="radio" id="genOptB" checked> Male
+                <input type="radio" value="B" name="qSix" id="genOptB" checked> Male
             </label> 
         </div>
+        <!--Question 7-->
 
         <div id=7>
-            <h3>NJ Driver's License Number or MVC Non-driver ID Number</h3>
+            <h3>7. NJ Driver's License Number or MVC Non-driver ID Number</h3>
             <input type="number" name="number">
             <p>If you Do Not have a NJ Driver's Licence or MVC Non-Driver ID, proived the last 4 digits of your social Security Number</p>
             <input type="number" name="number">
-            <input type="checkbox" name="" value="new" >I swear or affirm that I DO NOT have a NJ Driver's License, MVC Non-driver ID or a Social Security Number
+            <input type="checkbox" name="qSev" value="new" >I swear or affirm that I DO NOT have a NJ Driver's License, MVC Non-driver ID or a Social Security Number
         </div>
         
         <!--Question 8-->
