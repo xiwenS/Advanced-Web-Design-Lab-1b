@@ -2,12 +2,15 @@
 <html>
     <head>
         <title>Voter Registration Form</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <style>div, h1 { text-align: center; }</style>
+        <style>
+            div, h1 {
+                text-align: center;
+            }
+        </style>
 
     </head>
     <body>
-        <h1>New Jersey Voter Registration Application</h1>
+        <h1>Middlesex County NJ Voter Registration Application</h1>
         <!--Question 1-->
 
         <div id=1>
@@ -100,22 +103,40 @@
             <p>Do NOT use PO Box</p>
             Address<input type="text" name="text" value="">
             Apt. <input type="text" name="text" value="">
-            Municipality (City/Town)<input type="text" name="text" value="">
-            County
+            Municipality (City/Town)
             <select name="select">
-                <option value="county"></option>
-                <option value="county"></option>
-                <option value="county"></option>
-                <option value="county"></option>
-                <option value="county"></option>
-                <option value="county"></option>
+                <option value="county">Select...</option>
+                <option value="county">Carteret Borough</option>
+                <option value="county">Cranbury Township</option>
+                <option value="county">Dunellen Borough</option>
+                <option value="county">East Brunswick Township</option>
+                <option value="county">Edison Township</option>
+                <option value="county">Helmetta Borough</option>
+                <option value="county">Highland Park Borough</option>
+                <option value="county">Jamesburg Borough</option>
+                <option value="county">Metuchen Borough</option>
+                <option value="county">Middlesex Borough</option>
+                <option value="county">Milltown Borough</option>
+                <option value="county">Monroe Township</option>
+                <option value="county">New Brunswick City</option>
+                <option value="county">North Brunswick Township</option>
+                <option value="county">Old Bridge Township</option>
+                <option value="county">Perth Amboy City</option>
+                <option value="county">Piscataway Township</option>
+                <option value="county">Plainsboro Township</option>
+                <option value="county">Sayreville Borough</option>
+                <option value="county">South Amboy City</option>
+                <option value="county">South Brunswick Township</option>
+                <option value="county">South Plainfield Borough</option>
+                <option value="county">South River Borough</option>
+                <option value="county">Spotswood Borough</option>
+                <option value="county">Woodbridge Township</option>
             </select>
-            State
-            <select name="select">
-                <option value="state"> </option>
-                <option value="state" selected>Pudding</option>
-                <option value="state">Ice cream</option>
-                <option value="state">Ice cream</option>
+            County<select name="select">
+                <option value="state">Middlesex County</option>
+            </select>
+            State<select name="select">
+                <option value="state">New Jersey</option>
             </select>
             Zip Code<input type="text" name="text" value="">
         </div>
@@ -124,7 +145,44 @@
         <div id=9>
             <h3>9. Mailing Address</h3>
             <p>If different from home address</p>
-            <textarea></textarea>
+            Address<input type="text" name="text" value="">
+            Apt. <input type="text" name="text" value="">
+            Municipality (City/Town)
+            <select name="select">
+                <option value="county">Select...</option>
+                <option value="county">Carteret Borough</option>
+                <option value="county">Cranbury Township</option>
+                <option value="county">Dunellen Borough</option>
+                <option value="county">East Brunswick Township</option>
+                <option value="county">Edison Township</option>
+                <option value="county">Helmetta Borough</option>
+                <option value="county">Highland Park Borough</option>
+                <option value="county">Jamesburg Borough</option>
+                <option value="county">Metuchen Borough</option>
+                <option value="county">Middlesex Borough</option>
+                <option value="county">Milltown Borough</option>
+                <option value="county">Monroe Township</option>
+                <option value="county">New Brunswick City</option>
+                <option value="county">North Brunswick Township</option>
+                <option value="county">Old Bridge Township</option>
+                <option value="county">Perth Amboy City</option>
+                <option value="county">Piscataway Township</option>
+                <option value="county">Plainsboro Township</option>
+                <option value="county">Sayreville Borough</option>
+                <option value="county">South Amboy City</option>
+                <option value="county">South Brunswick Township</option>
+                <option value="county">South Plainfield Borough</option>
+                <option value="county">South River Borough</option>
+                <option value="county">Spotswood Borough</option>
+                <option value="county">Woodbridge Township</option>
+            </select>
+            County<select name="select">
+                <option value="state">Middlesex County</option>
+            </select>
+            State<select name="select">
+                <option value="state">New Jersey</option>
+            </select>
+            Zip Code<input type="text" name="text" value="">
         </div>
         
         <!--Question 10-->
@@ -137,22 +195,33 @@
         <!--Question 11-->
         <div id=11>
             <h3>11. Former Name if Making Name Change</h3>
-            <input type="text" name="text" value="">
+            Last Name<input type="text" name="text" value="">
+            First Name<input type="text" name="text" value="">
+            Middle Name (optional)<input type="text" name="text" value="">
         </div>
         
         <!--Question 12-->
         <div id=12>
             <h3>12. Contact Information (Optional)</h3>
-            <p>Phone Number</p>
-            <input type="tel" name="tel">
-            <p>Email Address</p>
-            <input type="text" name="text" value="">
+            Phone Number <input type="tel" name="tel">
+            Email Address <input type="text" name="text" value="">
         </div>
         
         <!--Question 13-->
         <div id=13>
-            <h3>13. Do you wish to declare a political party affiliation? (Optional)</h3>
-            <textarea></textarea>
+            <h3>13. Political party affiliation (Optional)</h3>
+            <select name="select">
+                <option value="county">I do not wish to declare</option>
+                <option value="county">Constitution Party</option>
+                <option value="county">Democratic Party</option>
+                <option value="county">Democratic Socialists of America</option>
+                <option value="county">Green Party</option>
+                <option value="county">Independent Party</option>
+                <option value="county">Libertarian Party</option>
+                <option value="county">Reform Party</option>
+                <option value="county">Republican Party</option>
+                <option value="county">Tea Party</option>
+            </select>
         </div>
         
         <!--Question 14-->
@@ -165,8 +234,8 @@
             <textarea></textarea>
         </div>
         
-        <!--Declaration and Signature-->
-        <div id=signature>
+        <!--Declaration-->
+        <div id=declaration>
             <h3>Declaration - I swear or affirm that:</h3>
             <ul>
                 <li>I am a U.S. Citizen</li>
@@ -176,12 +245,15 @@
                 <li>I am not on parole, probation or serving a sentence due to a conviction for an indictable offense under any federal or state laws</li>
                 <li>I understand that any false or fraudulent registration may subject me to a fine of up to $15,000, imprisonment up to 5 years, or both pursuant to R.S. 19:34-1</li>
             </ul>
+        </div>
+        
+        <!--Signature-->
+        <div id=signature>
             <h3>Signature</h3>
-            <p>Typing your name in the box below counts as your legal signature.</p>
-            <p>Name</p>
-            <input type="text" name="text" value="">
-            <p>Date</p>
-            <input type="date" name="date">
+            <p>Typing your legal name in the box below counts as your legal signature.</p>
+            Name <input type="text" name="text" value="">
+            <br>
+            Date <input type="date" name="date">
             
             <h3>If applicant is unable to complete this form, print the name and address of individual who completed this form.</h3>
             
@@ -191,7 +263,6 @@
             <textarea></textarea>
             <p>Date</p>
             <input type="date" name="date">
-            
         </div>
         
     </body>
