@@ -6,11 +6,31 @@
             div, h1 {
                 text-align: center;
             }
+            .one {
+                padding: 0 10%;
+                text-align: left;
+            }
+
+            #submit {
+                width: 40px;  
+                height: 40px;
+}
         </style>
 
     </head>
     <body>
         <h1>Middlesex County NJ Voter Registration Application</h1>
+
+
+
+        <p class="one">You can register to vote if:<br>
+            You are a United States citizen.
+            <br>You are at least 17 years of age.*
+            <br>You will be a resident of the State and county 30 days before the election.
+            <br> You are NOT currently serving a sentence, probation or parole because of a felony conviction.
+            <br>*You may register to vote if you are at least 17 years old but cannot vote until reaching the age of 18. Registration Deadline: 21 days before an election
+            <br>Your County Commissioner of Registration will notify you if your application is accepted. If it is not accepted, you will be notified on how to complete and/or correct the application.</p>
+        <h3 class="one">Questions? visit Elections.NJ.gov or call toll-free 1-877-NJVOTER (1-877-658-6837)</h3> 
         <!--Question 1-->
 
         <div id=1>
@@ -314,7 +334,7 @@
         <!--Declaration-->
         <div id=declaration>
             <h3>Declaration - I swear or affirm that:</h3>
-            <ul>
+            <ul class="one">
                 <li>I am a U.S. Citizen</li>
                 <li>I live at the above home address</li>
                 <li>I am at least 17 years old, and understand that I may not vote until reaching the age of 18</li>
@@ -378,5 +398,11 @@
             Date <input type="date" name="date">
         </div>
         
+        <!--Submit-->
+
+        <div>
+            <input type="submit" id="submit" name="submit" value="Submit it!">
+        </div>
+
     </body>
 </html>
